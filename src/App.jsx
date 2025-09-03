@@ -1,7 +1,9 @@
+import MainRoutes from "./routes/Router"
+
 function App() {
   return (
     <>
-      <h1 className="text-2xl text-red-500">Hellow world</h1>
+      <MainRoutes />
     </>
   )
 }
